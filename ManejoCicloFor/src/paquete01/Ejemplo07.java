@@ -32,7 +32,7 @@ public class Ejemplo07 {
                         mensajeFinal, i, contador, operacion);
             }
             // System.out.println("\n");
-            mensajeFinal = String.format("%s\n", mensajeFinal);
+            mensajeFinal = String.format("%s", mensajeFinal);
         } // termina for 01
         
         System.out.printf("%s\n%s\n", mensajeFinal, mensajeSuma);
