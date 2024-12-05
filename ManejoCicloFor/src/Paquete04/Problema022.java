@@ -10,11 +10,10 @@ package Paquete04;
  */
 public class Problema022 {
     public static void main(String[] args) {
-        int contador;
         int fahrenheit = 20;
         double celcius;
-        for (contador = 0; 0<=20; contador++) {
-            celcius = 5.0/9*fahrenheit-32;
+        for (int contador = 0; contador<=20; contador++) {
+            celcius = 5.0/9*(fahrenheit-32);
             System.out.printf("Operación(%d) Fahrenheit: %d ===> Celcius: %.2f\n",contador,fahrenheit,celcius);
             fahrenheit = fahrenheit + 4;
             
